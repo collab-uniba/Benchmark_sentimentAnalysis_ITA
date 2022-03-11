@@ -1,0 +1,2 @@
+# Benchmark_sentimentAnalysis_ITA
+Benchmark sentiment analysis Italiano
