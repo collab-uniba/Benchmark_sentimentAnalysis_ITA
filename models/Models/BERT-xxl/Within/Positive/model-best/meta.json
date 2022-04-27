@@ -1,0 +1,65 @@
+{
+  "lang":"it",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.2.4,<3.3.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"b50fe5ec6",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "transformer":[
+
+    ],
+    "textcat":[
+      "yes",
+      "no"
+    ]
+  },
+  "pipeline":[
+    "transformer",
+    "textcat"
+  ],
+  "components":[
+    "transformer",
+    "textcat"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "cats_score":0.7946753119,
+    "cats_score_desc":"macro F",
+    "cats_micro_p":0.9421052632,
+    "cats_micro_r":0.9421052632,
+    "cats_micro_f":0.9421052632,
+    "cats_macro_p":0.8388732394,
+    "cats_macro_r":0.7626408174,
+    "cats_macro_f":0.7946753119,
+    "cats_macro_auc":0.8713649463,
+    "cats_f_per_type":{
+      "yes":{
+        "p":0.72,
+        "r":0.5454545455,
+        "f":0.6206896552
+      },
+      "no":{
+        "p":0.9577464789,
+        "r":0.9798270893,
+        "f":0.9686609687
+      }
+    },
+    "cats_macro_auc_per_type":0.0,
+    "transformer_loss":0.0000000192,
+    "textcat_loss":0.0000000584
+  }
+}
